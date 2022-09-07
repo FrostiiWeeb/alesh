@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "zensh"
+name = "alesh"
 version = "0.1.0"
 description = "A new and improved custom-made version of the well-known SSH, also known as the Secure Shell."
 authors = ["FrostiiWeeb"]
 license = "GPLv3"
 readme = "README.md"
 packages = [
-    { include = "zensh", from = "src" },
+    { include = "alesh", from = "src" },
 ]
 
 [tool.poetry.dependencies]
